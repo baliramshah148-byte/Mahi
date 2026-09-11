@@ -1,0 +1,194 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="360dp"
+    android:height="800dp"
+    android:viewportWidth="360"
+    android:viewportHeight="800">
+
+    <!-- Dark moody canvas background -->
+    <path
+        android:pathData="M0,0h360v800h-360z"
+        android:fillColor="#0D0714" />
+
+    <!-- Ambient glowing circular orbs in background -->
+    <path
+        android:pathData="M180,240m-160,0a160,160 0,1 1,320 0a160,160 0,1 1,-320 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="180"
+                android:centerY="240"
+                android:gradientRadius="160"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#4DFF2E93" />
+                <item android:offset="0.6" android:color="#227928CA" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M90,140m-80,0a80,80 0,1 1,160 0a80,80 0,1 1,-160 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="90"
+                android:centerY="140"
+                android:gradientRadius="80"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#33FF007F" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M270,360m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="270"
+                android:centerY="360"
+                android:gradientRadius="100"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#338A2BE2" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylized aesthetic female silhouette avatar portrait -->
+    <!-- Flowing Hair back layer -->
+    <path
+        android:pathData="M130,120 C100,150 85,220 90,320 C95,380 110,430 115,480 C125,480 145,430 140,360 C138,300 135,210 160,160 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="100"
+                android:startY="120"
+                android:endX="120"
+                android:endY="450"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#66FF2E93" />
+                <item android:offset="1.0" android:color="#1A7928CA" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M230,120 C260,150 275,220 270,320 C265,380 250,430 245,480 C235,480 215,430 220,360 C222,300 225,210 200,160 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="260"
+                android:startY="120"
+                android:endX="240"
+                android:endY="450"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#66A855F7" />
+                <item android:offset="1.0" android:color="#1AFF2E93" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Shoulders & Torso silhouette -->
+    <path
+        android:pathData="M180,310 C150,310 100,340 70,390 C50,425 40,480 35,550 C35,620 325,620 325,550 C320,480 310,425 290,390 C260,340 210,310 180,310 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="180"
+                android:startY="310"
+                android:endX="180"
+                android:endY="580"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#33FF2E93" />
+                <item android:offset="0.4" android:color="#261A0B2E" />
+                <item android:offset="1.0" android:color="#000D0714" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Elegant Neck & Jawline -->
+    <path
+        android:pathData="M165,240 L165,295 C165,305 195,305 195,295 L195,240 Z"
+        android:fillColor="#22FFB5D5" />
+
+    <!-- Face Oval -->
+    <path
+        android:pathData="M180,140 C145,140 135,170 135,210 C135,250 160,275 180,275 C200,275 225,250 225,210 C225,170 215,140 180,140 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="180"
+                android:startY="140"
+                android:endX="180"
+                android:endY="275"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#44FF69B4" />
+                <item android:offset="0.8" android:color="#2A220D38" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylish Front Bangs & Flowing Hair locks -->
+    <path
+        android:pathData="M140,145 C155,160 175,165 180,165 C185,165 205,160 220,145 C235,130 215,115 180,115 C145,115 125,130 140,145 Z"
+        android:fillColor="#55FF2E93" />
+
+    <!-- Eyelashes & Soft Eyes -->
+    <path
+        android:pathData="M152,205 Q162,198 170,205"
+        android:strokeWidth="2.5"
+        android:strokeColor="#EEFF77B6"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M190,205 Q198,198 208,205"
+        android:strokeWidth="2.5"
+        android:strokeColor="#EEFF77B6"
+        android:strokeLineCap="round" />
+
+    <!-- Cute Wink / Accent Sparkle -->
+    <path
+        android:pathData="M214,196 L216,192 L218,196 L222,198 L218,200 L216,204 L214,200 L210,198 Z"
+        android:fillColor="#FFFF4081" />
+
+    <!-- Delicate Lips / Smile -->
+    <path
+        android:pathData="M172,242 Q180,249 188,242"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFF2E93"
+        android:strokeLineCap="round" />
+
+    <!-- Blushing Cheeks -->
+    <path
+        android:pathData="M145,222m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"
+        android:fillColor="#33FF0055" />
+    <path
+        android:pathData="M215,222m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"
+        android:fillColor="#33FF0055" />
+
+    <!-- Shimmer Sparkles & Aesthetic Elements -->
+    <path
+        android:pathData="M80,220 L82,212 L84,220 L92,222 L84,224 L82,232 L80,224 L72,222 Z"
+        android:fillColor="#99FF69B4" />
+    <path
+        android:pathData="M280,180 L282,174 L284,180 L290,182 L284,184 L282,190 L280,184 L274,182 Z"
+        android:fillColor="#99A855F7" />
+    <path
+        android:pathData="M100,340 L101.5,334 L103,340 L109,341.5 L103,343 L101.5,349 L100,343 L94,341.5 Z"
+        android:fillColor="#88FF2E93" />
+    <path
+        android:pathData="M260,320 L261.5,314 L263,320 L269,321.5 L263,323 L261.5,329 L260,323 L254,321.5 Z"
+        android:fillColor="#88A855F7" />
+
+    <!-- Bottom gradient fade into app UI -->
+    <path
+        android:pathData="M0,450h360v350h-360z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="180"
+                android:startY="450"
+                android:endX="180"
+                android:endY="800"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#000D0714" />
+                <item android:offset="0.5" android:color="#B30D0714" />
+                <item android:offset="1.0" android:color="#F20D0714" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

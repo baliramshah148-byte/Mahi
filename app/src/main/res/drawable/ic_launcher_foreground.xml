@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered within 66dp safe zone (canvas 108dp, center is 54, 54) -->
+    
+    <!-- Outer Audio Energy Arc -->
+    <path
+        android:pathData="M 33 54 A 21 21 0 0 1 75 54"
+        android:strokeWidth="3"
+        android:strokeColor="#FF60A8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Radiant Outer Orb Core -->
+    <path
+        android:pathData="M54,54m-18,0a18,18 0,1,1 36,0a18,18 0,1,1 -36,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="38"
+                android:endX="68"
+                android:endY="70"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF2E93" />
+                <item android:offset="0.6" android:color="#9034E5" />
+                <item android:offset="1.0" android:color="#6366F1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Highlights -->
+    <path
+        android:pathData="M54,54m-12,0a12,12 0,1,1 24,0a12,12 0,1,1 -24,0"
+        android:fillColor="#33FFFFFF" />
+
+    <!-- Sassy Wink & Smile Face features -->
+    <!-- Left Eye (Playful open wink / sparkle) -->
+    <path
+        android:pathData="M 48 50 A 2 2 0 1 1 48 50.01"
+        android:strokeWidth="2.8"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Right Eye (Sassy confident wink arc) -->
+    <path
+        android:pathData="M 58 50 Q 61 47 64 50"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Sassy playful smirk / smile -->
+    <path
+        android:pathData="M 50 56 Q 55 60 61 57"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Top Sparkle / Attitude Star -->
+    <path
+        android:pathData="M 68 36 L 70 40 L 74 42 L 70 44 L 68 48 L 66 44 L 62 42 L 66 40 Z"
+        android:fillColor="#FFDE59" />
+
+    <!-- Mic / Voice Wave bars at bottom -->
+    <path
+        android:pathData="M 44 75 L 44 80 M 49 73 L 49 82 M 54 71 L 54 84 M 59 73 L 59 82 M 64 75 L 64 80"
+        android:strokeWidth="2.2"
+        android:strokeColor="#E066FF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>

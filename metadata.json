@@ -1,0 +1,6 @@
+{
+  "name": "Mahi AI",
+  "description": "A witty, sassy, confident AI assistant with voice-to-voice conversation and charm.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
